@@ -1,5 +1,5 @@
 
-# <p align="center"> <img src="/XMOPS-White.svg" alt="XMOPS-Accelerate Logo" width="200" /> </p>
+# <p align="center"> <img src="/XMOPS-White.svg" alt="XMOPS-Accelerate Logo" width="280" /> </p>
 
 # XMPOS Accelerate: Professional Guide 📘
 
