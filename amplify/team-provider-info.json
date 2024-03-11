@@ -1,0 +1,41 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-xmopsaccelerate-dev-120708-authRole",
+      "UnauthRoleArn": "arn:aws:iam::590183833082:role/amplify-xmopsaccelerate-dev-120708-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::590183833082:role/amplify-xmopsaccelerate-dev-120708-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-xmopsaccelerate-dev-120708-deployment",
+      "UnauthRoleName": "amplify-xmopsaccelerate-dev-120708-unauthRole",
+      "StackName": "amplify-xmopsaccelerate-dev-120708",
+      "StackId": "arn:aws:cloudformation:us-east-1:590183833082:stack/amplify-xmopsaccelerate-dev-120708/0bc2add0-cdfa-11ee-a9a0-12472478ef31",
+      "AmplifyAppId": "d2oytkshe2u7ou"
+    },
+    "categories": {
+      "auth": {
+        "xmopsaccelerate3d029696": {}
+      }
+    }
+  },
+  "xmops": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-xmopsaccelerate-xmops-123320-authRole",
+      "UnauthRoleArn": "arn:aws:iam::590183833082:role/amplify-xmopsaccelerate-xmops-123320-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::590183833082:role/amplify-xmopsaccelerate-xmops-123320-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-xmopsaccelerate-xmops-123320-deployment",
+      "UnauthRoleName": "amplify-xmopsaccelerate-xmops-123320-unauthRole",
+      "StackName": "amplify-xmopsaccelerate-xmops-123320",
+      "StackId": "arn:aws:cloudformation:us-east-1:590183833082:stack/amplify-xmopsaccelerate-xmops-123320/b49e5780-cdfd-11ee-a8c7-127a840d3947",
+      "AmplifyAppId": "d2oytkshe2u7ou"
+    },
+    "categories": {
+      "auth": {
+        "xmopsaccelerate3d029696": {}
+      },
+      "function": {
+        "xmopsaccelerate9483de71": {}
+      }
+    }
+  }
+}
