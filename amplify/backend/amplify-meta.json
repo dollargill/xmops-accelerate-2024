@@ -1,0 +1,65 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-xmopsaccelerate-xmops-123320-authRole",
+      "UnauthRoleArn": "arn:aws:iam::590183833082:role/amplify-xmopsaccelerate-xmops-123320-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::590183833082:role/amplify-xmopsaccelerate-xmops-123320-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-xmopsaccelerate-xmops-123320-deployment",
+      "UnauthRoleName": "amplify-xmopsaccelerate-xmops-123320-unauthRole",
+      "StackName": "amplify-xmopsaccelerate-xmops-123320",
+      "StackId": "arn:aws:cloudformation:us-east-1:590183833082:stack/amplify-xmopsaccelerate-xmops-123320/b49e5780-cdfd-11ee-a8c7-127a840d3947",
+      "AmplifyAppId": "d2oytkshe2u7ou"
+    }
+  },
+  "auth": {
+    "xmopsaccelerate3d029696": {
+      "customAuth": false,
+      "dependsOn": [],
+      "frontendAuthConfig": {
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-xmopsaccelerate-xmops-123320-deployment/amplify-cfn-templates/auth/xmopsaccelerate3d029696-cloudformation-template.json",
+        "logicalId": "authxmopsaccelerate3d029696"
+      },
+      "lastPushTimeStamp": "2024-02-28T10:10:30.468Z",
+      "output": {
+        "UserPoolId": "us-east-1_LkhcuavvK",
+        "AppClientIDWeb": "3slidnrrt5k8j640lhseceho4t",
+        "AppClientID": "789sledhs4nkafbak1nqo8285i",
+        "IdentityPoolId": "us-east-1:6c3710f1-f3a9-4357-9c91-08cd1cb74f59",
+        "UserPoolArn": "arn:aws:cognito-idp:us-east-1:590183833082:userpool/us-east-1_LkhcuavvK",
+        "IdentityPoolName": "xmopsaccelerate3d029696_identitypool_3d029696__xmops",
+        "UserPoolName": "xmopsaccelerate3d029696_userpool_3d029696"
+      },
+      "lastPushDirHash": "sK7seFJvE52dkGYH/HtEOS0LsmM="
+    }
+  },
+  "function": {
+    "xmopsaccelerate9483de71": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  }
+}
